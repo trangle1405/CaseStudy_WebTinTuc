@@ -52,39 +52,11 @@
                             </td>
                             <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="admin/news/edit/{{ $value->id }}">Sửa</a></td>
                             <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="admin/news/delete/{{ $value->id }}" onclick="return confirm('Bạn chắc chắn muốn xóa?')">xoa</a></td>
-{{--                            <td class="center">--}}
-{{--                                <i class="fa fa-trash-o  fa-fw"></i>--}}
-
-{{--                                <input type="hidden" class="hiddenID" value="{{ $chitiet->id }}">--}}
-
-{{--                                <a href="#" class="btnDel" data-backdrop="static" data-keyboard="false" data-toggle="modal" data-target="#myModal{{$chitiet->id}}">Xóa</a>--}}
-
-{{--                                <div style="text-align: left;" id="myModal{{$chitiet->id}}" class="modal fade" role="dialog">--}}
-{{--                                    <div class="modal-dialog">--}}
-
-{{--                                        <!-- Modal content-->--}}
-{{--                                        <div class="modal-content">--}}
-{{--                                            <div class="modal-header">--}}
-{{--                                                <button type="button" class="close" data-dismiss="modal">&times;</button>--}}
-{{--                                                <h4 class="modal-title">Xác Nhận</h4>--}}
-{{--                                            </div>--}}
-{{--                                            <div class="modal-body">--}}
-{{--                                                <p>Bạn muốn xóa Tin Tức: "{{$chitiet->TieuDe}}"?</p>--}}
-{{--                                            </div>--}}
-{{--                                            <div class="modal-footer">--}}
-{{--                                                <button type="button" data-casetype="tintuc" class="btn btn-default btnConf">Có</button>--}}
-{{--                                                <button type="button" class="btn btn-default" data-dismiss="modal">Không</button>--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </td>--}}
                         </tr>
                     @endforeach
                     </tbody>
                 </table>
-            </div>
+            {{ $news->links() }}
             <!-- /.row -->
         </div>
         <!-- /.container-fluid -->
