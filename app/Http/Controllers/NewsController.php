@@ -13,7 +13,7 @@ class NewsController extends Controller
 {
     public function list()
     {
-        $news = News::all()->paginate(5);
+        $news = News::paginate(5);
         return view('admin.news.list', compact('news'));
     }
 
