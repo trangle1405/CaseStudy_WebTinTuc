@@ -99,7 +99,7 @@
         $(document).ready(function () {
             $("#category").change(function () {
                 var category_id = $(this).val();
-                $.get("admin/ajax/typeofnews/" + category_id, function (data) {
+                $.get("admin/ajax/typeofnews" + category_id, function (data) {
 
                     $("#typeOfNews").html(data);
                 })

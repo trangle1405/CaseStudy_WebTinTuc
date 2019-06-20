@@ -18,7 +18,7 @@ class TypeOfNewsController extends Controller
     public function create()
     {
         $category = Category::all();
-        return view('admin.typeofnews.add', compact('category'));
+        return view('admin.typeOfNews.add', compact('category'));
     }
 
     public function store(CategoryValidation $request)
@@ -26,14 +26,14 @@ class TypeOfNewsController extends Controller
         $request['name_slug'] = str_slug($request->name);
         $attribute = $request->all();
         $typeOfNews = TypeOfNews::create($attribute);
-        return redirect('admin/typeofnews/list')->with('message', 'Đã thêm Loại Tin!');
+        return redirect('admin/typeOfNews/list')->with('message', 'Đã thêm Loại Tin!');
     }
 
     public function edit($id)
     {
         $category = Category::all();
         $typeOfNews = TypeOfNews::findOrFail($id);
-        return view('admin.typeofnews.edit', compact('typeOfNews', 'category'));
+        return view('admin.typeOfNews.edit', compact('typeOfNews', 'category'));
     }
 
     public function update(CategoryValidation $request, $id)
@@ -42,7 +42,7 @@ class TypeOfNewsController extends Controller
         $request['name_slug'] = str_slug($request->name);
         $attribute = $request->all();
         $typeOfNews->update($attribute);
-        return redirect('admin/typeofnews/list')->with('message', 'Đã Sửa Thể Loại!');
+        return redirect('admin/typeOfNews/list')->with('message', 'Đã Sửa Thể Loại!');
     }
 
     public function destroy($id)

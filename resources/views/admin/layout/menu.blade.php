@@ -29,13 +29,13 @@
             </li>
 
             <li>
-                <a href="admin/typeofnews/list"><i class="fa fa-tasks fa-fw icon-mright"></i>Loại Tin<span class="fa arrow"></span></a>
+                <a href="admin/typeOfNews/list"><i class="fa fa-tasks fa-fw icon-mright"></i>Loại Tin<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="admin/typeofnews/list">Danh Sách</a>
+                        <a href="admin/typeOfNews/list">Danh Sách</a>
                     </li>
                     <li>
-                        <a href="admin/typeofnews/add">Thêm Loại Tin</a>
+                        <a href="admin/typeOfNews/add">Thêm Loại Tin</a>
                     </li>
                 </ul>
                 <!-- /.nav-second-level -->
