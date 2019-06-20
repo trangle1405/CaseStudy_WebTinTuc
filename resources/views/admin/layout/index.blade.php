@@ -66,13 +66,13 @@
 <script type="text/javascript" language="javascript" src="admin_asset/ckeditor/ckeditor.js" ></script>
 
 <!-- Page-Level Demo Scripts - Tables - Use for reference -->
-<script>
-    $(document).ready(function() {
-        $('#dataTables-example').DataTable({
-            responsive: true
-        });
-    });
-</script>
+{{--<script>--}}
+{{--    $(document).ready(function() {--}}
+{{--        $('#dataTables-example').DataTable({--}}
+{{--            responsive: true--}}
+{{--        });--}}
+{{--    });--}}
+{{--</script>--}}
 @yield('script')
 </body>
 

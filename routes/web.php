@@ -95,7 +95,6 @@ route::group(['prefix' => 'admin', 'middleware' => 'adminLogin'], function () {
 
     Route::group(['prefix' => 'ajax'], function () {
         Route::get('typeOfNews/{category_id}', 'AjaxController@getTypeOfNews');
-//        Route::get('timestamp','AjaxController@timestamp');
     });
 });
 
