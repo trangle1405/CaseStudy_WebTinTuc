@@ -48,7 +48,7 @@ route::group(['prefix' => 'admin', 'middleware' => 'adminLogin'], function () {
     });
 
     // Route group Type of News
-    route::group(['prefix' => 'typeofnews'], function () {
+    route::group(['prefix' => 'typeOfNews'], function () {
         Route::get('list', 'TypeOfNewsController@list');
         Route::get('add', 'TypeOfNewsController@create');
         Route::post('add', 'TypeOfNewsController@store');
