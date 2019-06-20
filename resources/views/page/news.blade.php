@@ -10,7 +10,7 @@
         <div class="row">
         @include('layout.menu')
         <!-- Blog Post Content Column -->
-            <div class="col-lg-9">
+            <div class="col-md-6">
 
                 <!-- Blog Post -->
 
