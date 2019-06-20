@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82ca4749-f4fd-438c-bbf3-c1439f307062" name="Default Changelist" comment="" />
+    <list default="true" id="82ca4749-f4fd-438c-bbf3-c1439f307062" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +107,7 @@
     <findStrings>
       <find>name</find>
       <find>href</find>
+      <find>log</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -252,7 +255,7 @@
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="170" />
     <option name="y" value="91" />
     <option name="width" value="1026" />
@@ -386,12 +389,12 @@
       <workItem from="1560865727249" duration="7491000" />
       <workItem from="1560906480492" duration="11126000" />
       <workItem from="1560954281913" duration="8242000" />
-      <workItem from="1560999587995" duration="341000" />
+      <workItem from="1560999587995" duration="1164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125607000" />
+    <option name="totallyTimeSpent" value="126430000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -403,7 +406,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49667773" visible="true" weight="0.2624811" />
