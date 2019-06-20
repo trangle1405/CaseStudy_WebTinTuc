@@ -98,8 +98,8 @@
     <script>
         $(document).ready(function () {
             $("#category").change(function () {
-                var category_id = $(this).val();
-                $.get("admin/ajax/typeOfNews" + category_id, function (data) {
+                let category_id = $(this).val();
+                $.get("admin/ajax/typeOfNews/" + category_id, function (data) {
 
                     $("#typeOfNews").html(data);
                 })
