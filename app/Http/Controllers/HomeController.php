@@ -26,14 +26,14 @@ class HomeController extends Controller
 
     public function index()
     {
-        $category = Category::all();
+        $category = Category::orderBy('created_at', 'asc')->get();
         return view('page.home');
     }
 
     public function typeOfNews($id)
     {
         $typeOfNews = TypeOfNews:: findOrFail($id);
-        $news = News::where('typeOfNews_id', $id)->paginate(5);
+        $news = News::where('typeOfNews_id', $id)->orderBy('created_at', 'desc')->paginate(5);
         return view('page.category', compact('typeOfNews', 'news'));
     }
 

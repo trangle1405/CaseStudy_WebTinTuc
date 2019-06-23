@@ -31,7 +31,7 @@
                         <div class="col-md-9">
                             <h3><a href="tin-tuc/{{ $value->title_slug }}.html">{{ $value->title }}</a></h3>
                             <p>{!! $value->summary !!}</p>
-                            <a class="btn btn-primary" href="tin-tuc/{{ $value->title_slug }}.html">Xem Thêm.. <span class="glyphicon glyphicon-chevron-right"></span></a>
+                            <a class="btn btn-primary" href="news/{{$value['id']}}/{{ $value->title_slug }}.html">Xem Thêm.. <span class="glyphicon glyphicon-chevron-right"></span></a>
                         </div>
                         <div class="break"></div>
                     </div>
