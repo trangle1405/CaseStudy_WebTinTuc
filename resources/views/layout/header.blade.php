@@ -18,7 +18,7 @@
                     <a href="#">Giới thiệu</a>
                 </li>
                 <li>
-                    <a href="lien-he">Liên hệ</a>
+                    <a href="#">Liên hệ</a>
                 </li>
             </ul>
 
@@ -44,6 +44,10 @@
                         <div style="left: -5px; padding: 0.5em 1em; text-align: center;" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="user_info">Thiết Lập Tài Khoản</a>
                             <div class="divider"></div>
+                            @if(Auth::user()->level == 1)
+                            <a class="dropdown-item" href="admin">Trang quản trị</a>
+                            <div class="divider"></div>
+                            @endif
                             <a class="dropdown-item" href="logout">Đăng Xuất</a>
                         </div>
                     </li>
