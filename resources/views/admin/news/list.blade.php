@@ -37,7 +37,7 @@
                             <td>{{ $value->id }}</td>
                             <td>
                                 <p>{{ $value->title }}</p>
-                                <img width="100px" src="{{asset('storage/images/'. $value->image)}}">
+                                <img width="100px" src="upload/tintuc/{{ $value->image }}">
                             </td>
                             <td>{{ $value->summary }}</td>
                             <td>{{ $value->TypeOfNews->Category->name }}</td>
@@ -54,7 +54,7 @@
                                         href="admin/news/edit/{{ $value->id }}">Sửa</a></td>
                             <td class="center"><i class="fa fa-pencil fa-fw"></i> <a
                                         href="admin/news/delete/{{ $value->id }}"
-                                        onclick="return confirm('Bạn chắc chắn muốn xóa?')">xoa</a></td>
+                                        onclick="return confirm('Bạn chắc chắn muốn xóa?')">Xóa</a></td>
                         </tr>
                     @endforeach
                     </tbody>
@@ -64,5 +64,8 @@
             </div>
             <!-- /.container-fluid -->
         </div>
+
         <!-- /#page-wrapper -->
+    </div>
+
 @endsection

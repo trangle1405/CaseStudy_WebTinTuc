@@ -49,7 +49,7 @@ class TypeOfNewsController extends Controller
     {
         $typeOfNews = TypeOfNews::findOrFail($id);
         $typeOfNews->delete();
-        return redirect('admin/category/list')->with('message', 'Đã Xóa Thể Loại!');
+        return redirect('admin/typeOfNews/list')->with('message', 'Đã xóa Thể Loại!');
     }
 
 }

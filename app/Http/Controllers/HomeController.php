@@ -40,8 +40,8 @@ class HomeController extends Controller
     public function news($id)
     {
         $news = News:: findOrFail($id);
-        $featured_new = News::where('featured_news', 1)->take(3)->get();
-        $related_news = News::where('typeOfNews_id', $news->typeOfNews_id)->take(3)->get();
+        $featured_new = News::where('featured_news', 1)->orderBy('created_at', 'desc')->take(3)->get();
+        $related_news = News::where('typeOfNews_id', $news->typeOfNews_id)->orderBy('created_at', 'desc')->take(3)->get();
         return view('page.news', compact('news', 'featured_new', 'related_news'));
     }
 

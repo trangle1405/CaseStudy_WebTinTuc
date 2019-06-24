@@ -23,7 +23,7 @@ class CreateNewsTable extends Migration
             $table->integer('featured_news')->default(0);
             $table->integer('view')->default(0);
             $table->integer('typeOfNews_id')->unsigned();
-            $table->foreign('typeOfNews_id')->references('id')->on('typeOfNews');
+            $table->foreign('typeOfNews_id')->references('id')->on('typeOfNews')->onDelete('cascade');
             $table->timestamps();
         });
     }

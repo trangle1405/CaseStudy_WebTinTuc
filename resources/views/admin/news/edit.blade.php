@@ -93,7 +93,7 @@
                             </label>
                         </div>
 
-                        <button type="submit" class="btn btn-default">sua</button>
+                        <button type="submit" class="btn btn-default">Sửa</button>
                         <button type="reset" class="btn btn-default btn-mleft">Nhập Lại</button>
                     </form>
                 </div>
@@ -119,7 +119,8 @@
                             <td>{{ $value->content }}</td>
                             <td>{{ $value->created_at }}</td>
                             <td class="center"><i class="fa fa-pencil fa-fw"></i><a
-                                        href="admin/comment/delete/{{ $value->id }}/{{$news->id}}"  onclick="return confirm('Bạn chắc chắn muốn xóa?')">Xóa</a></td>
+                                        href="admin/comment/delete/{{ $value->id }}/{{$news->id}}"
+                                        onclick="return confirm('Bạn chắc chắn muốn xóa?')">Xóa</a></td>
                         </tr>
                     @endforeach
                     </tbody>

@@ -36,37 +36,14 @@
                             <td>{{ $value->name }}</td>
                             <td>{{ $value->content }}</td>
                             <td>
-                                <img width="200px" src="{{asset('storage/images/'. $value->image)}}">
+                                <img width="200px" src="upload/slide/{{ $value->image }}">
                             </td>
                             <td>{{ $value->link }}</td>
-                            <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="admin/slide/edit/{{ $value->id }}">Sửa</a></td>
-                            <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="admin/slide/delete/{{ $value->id }}" onclick="return confirm('Bạn chắc chắn muốn xóa?')">Xoa</a></td>
-                            {{--                            <td class="center">--}}
-                            {{--                                <i class="fa fa-trash-o  fa-fw"></i>--}}
-                            {{--                                <input type="hidden" value="{{ $value->id }}">--}}
-                            {{--                                <a href="#" class="btnDel" data-backdrop="static" data-keyboard="false" data-toggle="modal" data-target="#myModal{{$value->id}}">Xóa</a>--}}
-
-                            {{--                                <div style="text-align: left;" id="myModal{{$value->id}}" class="modal fade" role="dialog">--}}
-                            {{--                                    <div class="modal-dialog">--}}
-
-                            {{--                                        <!-- Modal content-->--}}
-                            {{--                                        <div class="modal-content">--}}
-                            {{--                                            <div class="modal-header">--}}
-                            {{--                                                <button type="button" class="close" data-dismiss="modal">&times;</button>--}}
-                            {{--                                                <h4 class="modal-title">Xác Nhận</h4>--}}
-                            {{--                                            </div>--}}
-                            {{--                                            <div class="modal-body">--}}
-                            {{--                                                <p>Bạn muốn xóa Slide: "{{$chitiet->Ten}}"?</p>--}}
-                            {{--                                            </div>--}}
-                            {{--                                            <div class="modal-footer">--}}
-                            {{--                                                <button type="button" data-casetype="slide" class="btn btn-default btnConf">Có</button>--}}
-                            {{--                                                <button type="button" class="btn btn-default" data-dismiss="modal">Không</button>--}}
-                            {{--                                            </div>--}}
-                            {{--                                        </div>--}}
-
-                            {{--                                    </div>--}}
-                            {{--                                </div>--}}
-                            {{--                            </td>--}}
+                            <td class="center"><i class="fa fa-pencil fa-fw"></i> <a
+                                        href="admin/slide/edit/{{ $value->id }}">Sửa</a></td>
+                            <td class="center"><i class="fa fa-pencil fa-fw"></i> <a
+                                        href="admin/slide/delete/{{ $value->id }}"
+                                        onclick="return confirm('Bạn chắc chắn muốn xóa?')">Xóa</a></td>
                         </tr>
                     @endforeach
                     </tbody>

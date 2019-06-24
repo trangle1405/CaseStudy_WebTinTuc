@@ -28,6 +28,7 @@ class NewsValidation extends FormRequest
             'title' => 'required|min:3',
             'featured_news' => 'required',
             'content'=> 'required|min:20',
+            'image' => 'required|image|mimes:jpeg,png,jpg|max:2048',
         ];
     }
     public function messages(){
@@ -38,6 +39,10 @@ class NewsValidation extends FormRequest
             'featured_news.required'=>'Bạn chưa nhập Tóm tắt cho Bài viết!',
             'content.required'=>'Bạn chưa nhập nội dung cho Bài viết!',
             'content.min'=>'Bài viết quá ngắn, yêu cầu tối thiểu gồm 20 ký tự trở lên!',
+            'image.image'=>'File ảnh không hợp lệ',
+            'image.mimes'=>'File ảnh không hợp lệ',
+            'image.required'=>'File ảnh không được để trống',
+
         ];
     }
 }

@@ -31,20 +31,13 @@ class NewsController extends Controller
             $request['image'] = '';
         } else {
             $file = $request->file('image');
-
             $fileName = $file->getClientOriginalName();
-            $fileExtension = $file->getClientOriginalExtension();
-            $newFileName = rand(11111, 99999) . "_" . $fileName . "." . $fileExtension;
-            $request->file('image')->storeAs('public/images', $newFileName);
-            //$request['image'] = $newFileName;
-            //dd($newFileName);
+            $newFileName = rand(11111, 99999) . "_" . $fileName;
+            $request->file('image')->move('upload/tintuc',$newFileName);
             $attribute['image'] = $newFileName;
 
         }
         $attribute['title_slug'] = str_slug($request->title);
-        //$attribute = $request->all();
-
-        //dd($attribute);
         $typeOfNews = News::create($attribute);
         return redirect('admin/news/list')->with('message', 'Đã thêm  Tin!');
     }
@@ -64,17 +57,15 @@ class NewsController extends Controller
             $request['image'] = '';
         } else {
             $file = $request->file('image');
-
             $fileName = $file->getClientOriginalName();
-            $fileExtension = $file->getClientOriginalExtension();
-            $newFileName = rand(11111, 99999) . "_" . $fileName . "." . $fileExtension;
-            $request->file('image')->storeAs('public/images', $newFileName);
+            $newFileName = rand(11111, 99999) . "_" . $fileName;
+            $request->file('image')->move('upload/tintuc',$newFileName);
             $attribute['image'] = $newFileName;
 
         }
         $attribute['title_slug'] = str_slug($request->title);
         $news->update($attribute);
-        return redirect('admin/news/list')->with('message', 'Đã sua  Tin!');
+        return redirect('admin/news/list')->with('message', 'Đã sửa tin!');
     }
 
     public function destroy($id)

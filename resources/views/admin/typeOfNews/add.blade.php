@@ -25,7 +25,7 @@
                             <strong>{{ session('message') }}</strong>
                         </div>
                     @endif
-                    <form action="admin/typeofnews/add" method="POST">
+                    <form action="admin/typeOfNews/add" method="POST">
                        @csrf
                         <div class="form-group">
                             <p><label>Tên Loại Tin</label></p>

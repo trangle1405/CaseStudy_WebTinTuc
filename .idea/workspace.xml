@@ -6,10 +6,1481 @@
   <component name="ChangeListManager">
     <list default="true" id="82ca4749-f4fd-438c-bbf3-c1439f307062" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NewsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TypeOfNewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TypeOfNewsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/NewsValidation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/NewsValidation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_10_152258_create_type_of_news_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_06_10_152258_create_type_of_news_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_10_152535_create_news_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_06_10_152535_create_news_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_10_153138_create_comments_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_06_10_153138_create_comments_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/slide/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/slide/7ejn_21100555_936277026511498_1065628174_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/slide/banner-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/slide/bg-404.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/slide/l7UM_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/000T_TRPar3678305.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/000_DV914287.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/000_Was3668032.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/000_Was3710642.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/000par7939037-1406519454_300x180.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/01 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/01 (1)_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/0103_li-ka-shing.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/01_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/01_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/01_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/01_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/01_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/01_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/02_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (1) (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (1)_1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (1)_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (1)_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (1)_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (1)_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (1)_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (1)_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (1)_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (1)_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (1)_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (10).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (11).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (12).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (13).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (14).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (2)_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (2)_2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (2)_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (2)_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (2)_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (2)_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (3)_1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (3)_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (3)_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (3)_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (4)_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (4)_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (4)_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (5)_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (6).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (6)_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (7).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (7)_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1 (9).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1-world_gold_holdings_fort_knox.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1._thuoc_tri_thieu_mau_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/10 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/10_1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/10_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/10_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/11.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1101664804.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/11_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/11_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/14-tuoi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1412_thap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/14_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/15.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1509_400280.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/19-2436-1406522072_300x180.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1DSC_0032.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1H1_resize.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1JoZ_zinh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1PC-Tong-mat-bang.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_17.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_250x195.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_3011_400300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_400350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_7.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_GS-Nhung.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1_land.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/1ha-van-tham.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/2 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/2 (1)_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/2 (1)_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/2 (1)_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/2 (1)_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/2 (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/2 (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/2 (4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/2.jpg.thumb210x0.ns.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/250h_jpg_thumb210x0_ns.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/2710_400300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/2GS-Ngo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/2_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/2_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/2_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/2_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/2_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/2_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/2_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/2_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/2_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/2_valentines-day.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/2kegietnguoi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/3 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/3 (1)_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/3 (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/3-copy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/350x232.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/3D-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/3_(2).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/3_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/3_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/3_3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/3_China-Super-City.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/3_Econ2-popup.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/3_benmosche.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/3_coin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/3_ec1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/3_egypt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/3_somali.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/400480.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/400_1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/400x180.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/400x250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/400x259.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/400x280.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/400x300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/400x300_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/400x322.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/400x350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/400x400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/430.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/430_1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/4553697.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/490 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/490.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/490f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/4_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/4_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/4c007df3_1e266897_titanic-00921.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/5 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/5.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/5VE6_zinh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/5_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/5_2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/5_model.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/6-400x220.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/6_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/7Q1P_zinh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/7_1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/800pxmalaysiaairlinesboeing756888661395741770-1406516191_1406516202_180x108.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/8_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/8_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/8_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/9 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/9-1406519730_180x108.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/9S44_zinh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/9_1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ASCI-250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ATM-1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ATM-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Acer1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Agassi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/AiCap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Airbus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Ana.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Anh 1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Anh 2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Anh-Quynh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Anh-Tuan-Quynh (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Anh-Tuan-Quynh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Anh-Viet.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Anh-bai02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Anh-bai1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Anh02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Anh1_(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Asus_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/B8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/BHc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/BP0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/BRAVLON_9_400x270.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Baby_Calendar1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Bai (8).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Baldacchino-Supreme-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Balotelli (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Balotelli.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Bi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Bill.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Bin_Young.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Bkad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Bkav1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Blake_1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Blake_Livelyf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Bolivia-cd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Britney_Spears_Out_Lunch_Calabasas_68nI71IS_eTl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Bv1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/CES-020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/CES-09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/CH-Dominica.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/CKM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/CQ_42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Cairo_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Cao-Duy-Phong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Cau Long Bien _ Pham Tran Quan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Charles_Ed_Haldeman_Jr_-_CEO_cua_Freddie_Mac_1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Chim-moi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/China-Economy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/China-inflatio.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Chip.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Cho-Noi-Pattaya1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Creaze1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Czech.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/DA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/DF-14453.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/DSC00687.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/DSC04562.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/DSC06395.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/DSC_1131_as_Smart_Object-1_copy_(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/DSC_1603.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/DSC_4142 400x266.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/DSC_6904.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Da-Silva.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Davika-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Delphine_Arnault.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Ding.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Dinh-van-trong-250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Djokovic (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Drogba.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Drop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Du-lieu-qua-tai-450.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Dua-hanh-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/E151(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/E161-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/EF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/EH2010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ELS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Echo_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Egypt-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/FPT-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/FWCT1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Facebook-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Facebook-Virus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Fesitval-17_Non-la-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Festival-17_Hoan-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Festival-17_Ve-tranh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Foxx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/GIV_1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Ghep_CuRua1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Ghonim.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Gim-yun-mi-huy-chuong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Gio-thi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Gisele_Bundchen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/GoGreen_350x232.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Google-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Google_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Great-shark.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/H1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/H1_400 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/H1_400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/H1_400300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/H1_400_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/H1_400_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/HAGL-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/HCV.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/HDA-250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/HDA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/HH-Diem-Huong2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/HHH_9967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/HKphone1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/HP-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/HP-LaserJet-12A-Print-Cartr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/HP-Officejet-Pro-8500A-phot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/HP_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/HTC-1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/HTC-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/HTC-1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/HTC_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/HUY_5103.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/HVS-to.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/H_400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Ha-Van-Tham-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Ha_noi_dong_va_tinh_(17).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hai-Duong-250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hai_An_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Han (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Han.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/HanQuoc (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/HanQuoc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/HanQuoctank.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hang-Chau--Trung-Quoc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hang1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hanoi_1000_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hinh-01-400x266.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hinh-1---400x260.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hinh-1--400x295.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hinh-1-400x224.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hinh-1-400x266.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hinh-1-400x266_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hinh-1-400x266_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hinh-1-400x451.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hinh-1_400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hinh-1_400x269.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hinh-1_400x300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hinh-1_400x325.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hinh-2-400x273.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hinh-Online1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hinh-bai-Vacxin_300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hinh-tien-giay-cu-to.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hinh01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hinh_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hinh_1_400x204.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hitachi-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Ho-Tay---Tac-gia-Dao-Ngo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Ho-guom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hoa-hau-Thuy-Dung-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hoc-vien.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Holyfield-v-nielsen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Holyfield.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hong-Phuc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hop_MISA_Mimosa_2012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/House_hanoi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/HuJin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Hyun_Bin_Lim_Soo_Jung.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/IChO.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/IMG_0026.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/IMG_0124.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/IMG_0325.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/IMG_0404.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/IMG_0564.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/IMG_0787.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/IMG_1403.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/IMG_1626.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/IMG_2921a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/IMG_3733.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/IMG_3781.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/IMG_3826.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/IMG_4003.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/INCE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Intel-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Ivy1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/J20g.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Japan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Jatropha.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Jennifer_Garner_dazzles_co_star_Russell_Brand_nyLq9WLZpIGl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Julian.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/KIS_KEY_2011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Kagagwa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Kent-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Kham-mat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Khoa_12.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Kim-Clijsters.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Kim-caroline.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Kim_Joo_Ri_2009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Kobe-Bryant.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/L1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/LG-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/LG-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Lady_Gaga_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Lady_gaga_(10).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Lam_Tam_Nhu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/LdhG_zinh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Le-Duc-Thuy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Le-Huy-Bac-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Lee-Myung.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Leopard-Attack.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Li-Na (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Li-Na.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Lim_Mun_Kyung.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Lindsay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Losa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Luu-thi-diem-huong-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Ly Son.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Ly-ngu-vong-Nguyet.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/M260.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/MDIS (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/MDIS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/MNQ2_zinh1.jpg/php3E46.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/MWC-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Malware-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Mar-plane.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Marcal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Matilda_turns_4_5WqEV31r-7Ul.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/May-tinh-M80-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Messi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Mien-Ap-Chao-Hai-San-Nam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Miss-Earth-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Miss-earth-6 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Moscow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Motorola_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Motorola_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Mourinho (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Ms__LeQuynhAnh_tang_qua_benh_nhan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/MultiGmail1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/My_thuat_VN_the_ky_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/NBC1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/NTH_4059.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Nadal (5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/New-Image2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/New-Image250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/New_Image.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/New_Image1 (1).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/New_Image1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/New_Image1_1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/New_Image1_2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/New_Image2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/New_Image2_1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/New_Image5.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/New_Imagesp2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Nguyen-Thanh-Truc[1].jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Nguyen_Huu_Nam_set_sub.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Nhong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Nicole_Kidman_17th_Annual_SAG_Awards_Zn5OKKoYE46l.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Noel-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Nokia_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Norton-Internet-Security-40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Nvidia-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Nvidia-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/OT-710D_H1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Obama.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/PAS_0188.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/PC-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/PC-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/PC.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/PVi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Pacquiao.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Pakistan_floods.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Panda_Security.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Paragon1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Patriot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Pham-Thanh-Van-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Pham_Vu_Luan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Photoshop-31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Phu-huynh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Phuong.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Picture01-m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Pirate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Poster.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Probiotic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/R210_400x328.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/RM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Red-mud.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Rogueware.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Ronaldo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/S1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/S8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/SBJ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/SCIC.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Samho.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Samssung-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Samsung_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Samsung_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Samsung_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Samsung_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Samsung_Ace.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Scam-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Schilder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Schumacher.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Security-Essentials-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Security_Shield.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Senna.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Shia_LaBeouf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Sienna_Miller_Jude_Law_make_reconcilliation_c5E0ZawVFS-l.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Signature1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Sinh-vien-ngheo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Sleep.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Sony-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Sony_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Sony_40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Steve-Jobs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Sue-hollands-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Sunrise-250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/T01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/T770.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/TNP1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/TNT_400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/TUG.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/T_400267.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Tac-ke.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Tang_vat_vu_cuop_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Tau-Hoa-Sen-to.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/TauTQok-4351-1406470900_490x294.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Tehran.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Tevez.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Than-lan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Thao-to.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Thi-TP-HCM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Thi_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Thiep-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Thiet-ke.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Thit-kho-nuoc-dua.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Thuy-Hanh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Thuy-dien.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Toi_cuong_hy_su.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Tranh_Toba_Mika_(18).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Trinh_Cong_Son.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Tro-chuyen-350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Trung-Quoc-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Tunis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/UK.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/UPS1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/URP-02591.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/USS (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/USS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/UltraISO1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Untitled-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/Valentine-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a--thanh-cong-nho-van-hoa-g.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a-hung.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a-tb-bang-gia-dat-2011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a-tb-cam-van-ban-tom-kho-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a-tb-chung-cu-mini.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a-tb-khoi-cong-da-2-ty-do-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a-tb-kieu-bao-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a-tb-kieu-bao-tang-cau-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a-tb-mot-nam-lan-dan-bds-2[1].jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a-tb-nha-ban-bang-vang-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a-top-2-reu-xuan-HA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a1 (1).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a1 (1)_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a1 (1)_2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a1 (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a111.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a1_2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a1_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a3_1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a7951.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/aH2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/aHoanLong[1].jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/a_tb_kieu_bao_va_hoi_nhap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/abramovich.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/adebayor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/adriana.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/africansafari.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/airplanewideworldhighdef254151-1406517374_1406517388_300x180.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/alex.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/alg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/alicia_machado_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/alp6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/amstrong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/amthuc2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/an.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/an1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/an2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/anbai.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/andromeda9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/anh-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/anh-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/anh-Abott.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/anh-Nguyen-Canh-Binh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/anh-Thai-Hoa-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/anh-bai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/anh-sang8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/anh01 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/anh01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/anh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/anh_1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/anh_1 (2).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/anh_1 (3).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/anh_1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/anh_1_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/anh_1_1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/anil.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/antivirus.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/arap1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ariane.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/articleLarge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/aspen-tree.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/asus_pc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/athay-lai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/au1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/australia (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/australia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/b1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/b11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/b1_1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/b3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/b3a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ba-lao.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bach-yen-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bai (1).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bai (2).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bai (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bai (4).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bai (5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bai (6).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bai (7).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bai 2 (1).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bai 2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bai.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ballonn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/balotelli (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ban2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ban_sung-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bangkok.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/banh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bannha130 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bannha130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bao-gia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bao-tran-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/basketball.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bat-dong-san2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bayern.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bds1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/be-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/be.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bebe-pham16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/benh-tri2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/benh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bep.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bi_cao_hoc_tro.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/biet-thu-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bieu-do-cac-quoc-gia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/binh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bkav-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/blog-130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/blogger.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bluetooth1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/blyth.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bo ho.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bolt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/borneo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/branson-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bt1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bua-com-gia-dinh-to.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/bung_no_dua_nha_gia_trung_binh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/buom1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/buy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/c.-H1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/c1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/c11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/c1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/c1_2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ca.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cac_dong_flip.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cairo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cam4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/camera-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/canh-sat-giao-thong-xu-phat.jpg.thumb210x0.ns.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/canh-sat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/canh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cap_doi_hoan_hao_set_sub.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/capt_photo_1296335303341-1-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/car4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/carrier.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/case-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cashews1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/catapult2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cau_duyen_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cau_hinh.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cau_thu_hai_doi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cayda2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cdh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cham_soc_da_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chamsocda.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/channing-tatum-gq-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chau-au.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/check-virus-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chi-bao-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chim-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chim.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cho4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chocolate_hut_khach.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/choi1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/choigame1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chom2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chu-hao-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chua-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chung-khoan-0 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chung-khoan-0 (1)_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chung-khoan-0 (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chung-khoan-0 (2)_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chung-khoan-0 (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chung-khoan-0 (4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chung-khoan-0 (5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chung-khoan-0 (6).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chung-khoan-0 (7).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chung-khoan-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chung-khoan-0_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chung-minh-thu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chung1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chung_ket_hat_ta_(5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chungcu130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chungcu_2250.jpg.thumb210x0.ns.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chuong_tu_di.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/chuyen1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ck-490x322 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ck-490x322 (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ck-490x322 (4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ck-490x322.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cl1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/clijsters (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/clijsters.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cm2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cn11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/coc1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cola11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/con_Ly_Gia_Han.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cong1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cp1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/craft.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cruz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/culao2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cuoi1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cuong-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cuop (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cuop (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cuop-xe-om.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cuop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cyo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/cz6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/d1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/da_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dac biet.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dai_hoc_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dam_thu_13_tuoi.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dan-hang-ngaRng.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dang_khoa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/danh-bai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dao-to.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dao1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dao1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/daquy14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dat-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dat-dai-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dat-dai-130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dat-ruong-130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dau-gia-tu-thien-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dc1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/den4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dep1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dh_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/diarra2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/didong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/diem-huong-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/diem-huong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/diem-my-hot-boy-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/diem-trang-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/diem1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dien.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dienbienphu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dienthoai1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dienthoai1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dienthoai3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dinh-ngoc-diep.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/djokovic (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/djokovic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/do-nhuan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/do-thi3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/do_minh_phu.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/doan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dog-zoom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/doi-ten-130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/doi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dola.jpg.thumb210x0.ns.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/domain-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dong-phuong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/drill2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/drywater.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/du-lich1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/du-thuyen-1-to.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/du-thuyen-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/du_hoc_sinh_set_sub.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/duan1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/duan2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/duan3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/duc11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/duhoc (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/duhoc-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/duhoc-250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/duhoc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/duhoc250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dulich2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dung.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dv1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dv1 (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dv1 (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dv1 (4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dv1 (5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dv1 (6).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dv1.1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/dv1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/earth.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ech.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/echo_gap_lai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/eco6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ekaterinaparkhome2987311b-1406341819_1406341842_180x108.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/eminem-rihanna-love-the-way-you-lie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/emnho.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/eskin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/evn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/eximbank.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/f4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/fNrr_10981818_1050057151678038_728917264446584202_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/fabregas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/fall1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/farm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/federer (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/federer (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/federer (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/federer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/felaser.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/fetish.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ff17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/fight6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/fire.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/fire2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/fish2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/float.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/flood1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/flood2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/foci1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/font1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/for.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/forest4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/g.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/g1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ga.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/gap_mat_nha_giao_nhan_dan.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/gay-bolt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/gay11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/gemalto-carte-sim-facebook-mwc-2011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/gia-dinh-pham-duy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/giai-cuu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/giai-nhan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/giambeo (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/giambeo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/giamcan1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/gian.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/giang-vien-tre-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/giantcatfish.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/giay8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/giet-con.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/giet-nguoi (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/giet-nguoi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/giet.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/girl1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/giv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/goi_in_hinh_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/gold1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/gou.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/guardiola (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/guardiola.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hack-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/haile-new-york-marathon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/han2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/han_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hang.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hanggiadung.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hannah_montana_the_movie18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hc1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/heckmann_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/helicopter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/helicopter2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hengio1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/henin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hh-mai-phuong-thuy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hiddink.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hienmau1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hiep-dam (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hiep-dam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hieu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hinh-moi-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hinh1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hinh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hinh_1_300x379.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hinh_1_300x550.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hinh_1_400x278.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hinh_1_400x300.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hinh_250x195[1]_JPG_thumb210x0_ns.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hinh_2_400X194.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hn0641-Giai-Nhat-chung-cuoc-[Nguyen-Xuan-Nam].jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ho-den-lu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ho-ngoc-ha-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ho-ngoc-ha-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ho-ngoc-ha.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ho-quynh-huong-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ho1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hoa-hau-diem-huong-1[2].jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hoa-hau1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hoai-nam-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hoakhoi19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hoi-dong-anh-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hoi3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hong-su-jong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hot-girl-valentine-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hotteen-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hp3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hs-gialanh13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hu-obama.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/hue2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/huong-giang-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/huong-giang-diu-dang-du-tie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/huong_giang.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/huy-nam-trao-bang-tot-nghie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/huyen-trang-ky--hd-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/huyen01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/huynh-bich-phuong-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/i1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/i1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/iPhone-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/iPhone4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/iPod-16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/icecream1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/idm1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/image003.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/image1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/image1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/images368220_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/indochinese-tiger.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ipod-itunes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/j1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/j20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/james1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/jang_dong_gun.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/jennifer_megan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/jerry1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/jetaudio1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/jobs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/john-Higgins.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/jong-un.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/k.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/kHsm_zinh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/kaspersky_mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/kayla-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/kb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ket-hon-130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ket-hon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/khi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/khieuvu7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/khung-hoang-490.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/khuyenmai3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/kieu-chinh-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/kim (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/kim-chi-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/kim-trai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/kim.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/kinh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/kinhmat0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/kinhmat1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/klijsters.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lam_chi_linh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lamdep (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lamdep.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lamdep1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lamdep1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lamdep2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lamdepda.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lampard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lan-huong-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lan-huong-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lan-trinh,-khang-an-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lan1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lan_dung.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lang.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lanh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/laptop-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/laptop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lau.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/laymayxetnghiem1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ld1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/le-khanh-co-dau-dai-chien.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/le-thi-kim.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/le-xuan-hao-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lefra.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/li-ning-usa_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/liem.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/linh-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/linh-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/liverpool.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/liverpool10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/loan1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/logo6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/logo_cua_fedex_1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lop-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/love-23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/love-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ls3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lts2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lua.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lua_dao_tin_nhan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lv1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ly-hon-130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ly_gia_han_chong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lyhon2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/lyhon_nho.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ma-mi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mai-dam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mai-huong-phuong-vy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mai-nha-xanh-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/maichau1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/maimoi1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/main-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mancino4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mang.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/maria.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mark-zuckerberg3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mark_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/martina.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/matkinh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/may.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/may1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mayin1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/me-va-con.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/meo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/meo1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/meo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/meo1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/messi (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/messi (1)_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mevabe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mevabe1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mh1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mice.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/midu21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/minh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mini-frog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/miss-earth-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/miss-earth-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/miss-earth-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/miss-huong-giang-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/miss-universe-2011to.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mister-moi-truong-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mister-the-gioi-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mister-tri-tue-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mj2Xf-5KQi4l.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mmm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mobile2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/model_nokia_x2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mon1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/monash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mourinho.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mr-T.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/mua-nha-voi-nguoi-yeu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/muasam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/muasam1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/muasam1 (1)_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/muasam1 (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/muasam1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/muntrungca.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/murray (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/murray.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/my-tam-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/n1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/n1_1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/n1_2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nadal (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nadal (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nadal (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nadal (4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nadal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nam-ban-chan_300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nam-cuc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nam-thanh-nguyen-thi-nhan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nangmui.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/natalie-portman-benjamin-millepied-whiz-walk-nyc-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nathan-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nc2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/never_say_never_29_wenn3197798.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ngan-hang-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nghe-si-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ngo-thuy-ha-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ngoc-han-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ngoc-oanh-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ngoclan1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ngoi-nha-130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nguoi-danong-the-thao-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nguoi-mau-ruc-sac-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nguoime.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nguyen-duy-hung-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nha-dat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nha-o-1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nha-o-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nha-tai-cu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nha-tam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nha-tang-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nha-trang-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nha0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nha_abramovich.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nhan_toi.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nhap2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nhat-ha-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nhat1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nicole-faria-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nina.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nn1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/no-sung.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/no_strings_attached01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nokia-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/novak.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ntd1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nu1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/nuoi1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/o1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/o8mz_10922253_818350154896219_1044542631_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/obama-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/obama1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/oc7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/office_web_app.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/om2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ong-Dac-4-to.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ong-gia-noel-patin-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ong-lao-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ong-tran-le-nguyen-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/owen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/p1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/p1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/p1_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/p1_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/page.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/page1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/pancake-robot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/panda.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/papilio_blumei.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/paris1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/paul.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/penelope.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/pet1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/phale-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/pham-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/phan-lan-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/phao-hoa-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/phap5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/phi-thanh-van-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/phieu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/phieu_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/pho-cap-giao-duc-nho-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/pho_duc_phuong.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/phong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/photo-1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/photo-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/photo-1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/photo-41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/phu_huynh_xem_lich_nghi_hoc_set_sub.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/phucanh1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/phucanh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/phuong-lam-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/pico1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/pitbabe-xu-Han.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/plant.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/playboy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/plt3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/pp7T_zinh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/printer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/puyol.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/pv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/pyramids.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/q.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/qdung1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/qianlong-porcelain-vase-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/quach-an-an-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/quang-hai-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/quang-hai-28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/quang-minh-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/quang-vinh-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/quatet1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/quay-roi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/quet-nha-to.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/real-madrid.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/real_estate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/red.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/red_riding_hood07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/retmoi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/rihanna1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/robot1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/robot5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/robot7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/roce.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/rosi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ruby.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/russia.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/s400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sag_arrivals_3_57_wenn3186609.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sag_awards_5_04_wenn3186803.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/salt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/samsung.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/san-bay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sao-bien-1-to.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sao.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sapa9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sat-hai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sat-thu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/scam-1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/scam-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/scarlett1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/secret_garden_(4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/secret_garden_(4)_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/security-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/set.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/seven1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sevian.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sharapova (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sharapova.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/shoplifting.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/shutterstock2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sieu-mau-minh-vuong-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sing1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sinh-con-130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sinh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sinh_vien.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sinhvien[1].jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sinhvien[1]_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/snow1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/soc2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/socola_set_sub.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/soderling.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/song-bluechip.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/soyz1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/spa2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/spam-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/spam-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/spiderman.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/spill.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sport7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/steve-jobs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/steve-jobs1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/steve_jobs_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/stop-motion-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/stormchaser1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sua.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sua1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/suami.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sub.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/suckhoe1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sunrise-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/sydney.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/t.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/t1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/t1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/t1_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/t1_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/t2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tablet-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tablet-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tai_nan_set_top.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/taisinhda.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tap1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tat1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tau.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/taxi1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/taxi4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/teacloths.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tech-16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tech-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tennis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/thachim2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/thai-nhu-ngoc-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/thai1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/thammat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/than_tai_490.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/thanh-pho1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/thanh-thao1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/that-vong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/the_king_s_speech17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/theanswer_F_20110120033109.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/thep_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/thethao2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/thiet-ke-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/thiet-ke-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/thit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tho1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/thoitrang7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/thu-minh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/thu-vien.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/thu_muon_(8).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/thuong-tet-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/thuy-dung---ngoc-han-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/thuy-tien-em-da-quen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/thuy-vy-victoria9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tien-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tien-luong-130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tien.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tiger.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tinh-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tinh-yeu-1-to.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/to (1).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/to (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/to (3).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/to (4).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/to (5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/to (6) (1).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/to (6).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/to (7).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/to 1 (1).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/to 1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/to-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/to-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/to.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/to_tinh1990-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/toa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/toan-canh-a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/toanha2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/toi1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/top (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/top (10).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/top (11).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/top (12).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/top (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/top (2)_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/top (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/top (3)_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/top (4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/top (5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/top (7).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/top (8).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/top (9).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/top-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/top.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/top1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/top_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/top_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/topi5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/torres.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tq1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/train.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tran_tue_lam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tran_van_tan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/trang-nhun-g19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/trang-nhung-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/trang-phuc-da-tiec-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/trang.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/trangsuc8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tranh_doan_thi_diem.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/transformer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tre-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tre_em_set_sub.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/trienlamquocte1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/trietlong (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/trietlong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/trimo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/trimun.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/trimun1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/trinamda1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/trojan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/trom-xe-130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/trom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/trong.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/truc-phuong-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/truck.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/trung-quoc-490.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/truoc.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/truong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tsonga.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tt1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tt1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tu-van.jpg.thumb210x0.ns.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tuan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tung-duong-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tung.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tuong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/turan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tuve130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tuyensinh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tuyet1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tuyet1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/tv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/underseariver.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/ung-thu-co-tu-cung1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/uudai1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/uyen-linh-16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/v0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/va.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/va10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/valen_tine12.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/valentine-nho-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/valentine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/valentine1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/valentine13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/valentine1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/valentine22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/valentine3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/valentine_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/valentine_490.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/news/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/news/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/news/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/news/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/slide/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/slide/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/typeOfNews/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/typeOfNews/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/typeOfNews/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/typeOfNews/list.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/page/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/page/category.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/page/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/page/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/page/news.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/page/news.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,23 +1493,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="43" column="55" lean-forward="true" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
+            <state relative-caret-position="174">
+              <caret line="51" column="41" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/layout/menu.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CategoryController.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/news/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+            <state relative-caret-position="799">
+              <caret line="95" column="73" selection-start-line="95" selection-start-column="73" selection-end-line="95" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/page/news.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="83" column="32" lean-forward="true" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NewsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Requests/NewsValidation.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -53,7 +1572,7 @@
       <find>lay</find>
       <find>accordion</find>
       <find>xem</find>
-      <find>xem</find>
+      <find>image</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -62,14 +1581,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/typeOfNews/edit.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/AjaxController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/NewsValidation.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/news/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/slide/list.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/slide/add.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/SlideValidation.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/slide/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/SlideController.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
@@ -80,7 +1591,6 @@
         <option value="$PROJECT_DIR$/../../hoclaptrinhBC_PHP/test.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/login.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/AdminLoginValidation.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/layout/header.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/AdminLoginMiddleware.php" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/resources/views/layout/footer.blade.php" />
@@ -98,21 +1608,30 @@
         <option value="$PROJECT_DIR$/resources/views/page/search.blade.php" />
         <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TypeOfNewsController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/layout/menu.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/news/add.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/layout/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/page/news.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layout/menu.blade.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/NewsController.php" />
-        <option value="$PROJECT_DIR$/resources/views/page/home.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/news/list.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layout/header.blade.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/resources/views/page/category.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/layout/header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/layout/menu.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_06_10_152258_create_type_of_news_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_06_10_152535_create_news_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_06_10_153138_create_comments_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/typeOfNews/add.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/NewsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/news/list.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/slide/list.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/page/home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/page/news.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TypeOfNewsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/typeOfNews/list.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/page/category.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/news/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/NewsValidation.php" />
       </list>
     </option>
   </component>
@@ -202,9 +1721,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="346" />
+    <option name="x" value="1632" />
+    <option name="y" value="161" />
     <option name="width" value="1026" />
-    <option name="height" value="735" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -212,6 +1732,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,23 +1749,45 @@
               <item name="blog_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog_project" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Providers" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog_project" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog_project" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Requests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog_project" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_project" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_project" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_project" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="tintuc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog_project" type="b2602c69:ProjectViewProjectNode" />
@@ -269,6 +1812,14 @@
               <item name="blog_project" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_project" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -278,16 +1829,10 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="blog_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog_project" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -356,12 +1901,13 @@
       <workItem from="1561082630532" duration="4234000" />
       <workItem from="1561092601299" duration="400000" />
       <workItem from="1561303743525" duration="4750000" />
-      <workItem from="1561339951814" duration="5520000" />
+      <workItem from="1561339951814" duration="6328000" />
+      <workItem from="1561381543338" duration="7482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158482000" />
+    <option name="totallyTimeSpent" value="166772000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,10 +1919,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="1358" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49667773" visible="true" weight="0.29425114" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49667773" visible="true" weight="0.42030847" />
       <window_info id="Structure" order="1" sideWeight="0.50332224" side_tool="true" weight="0.21013413" />
       <window_info id="Favorites" order="2" sideWeight="0.50247526" weight="0.5885023" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -390,7 +1935,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.83797055" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5437416" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -441,120 +1986,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/resources/views/page/news.blade.php</url>
-          <line>97</line>
+          <line>98</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/page/user-profile.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="67" column="89" selection-start-line="67" selection-start-column="89" selection-end-line="67" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/UserValidation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="28" selection-end-column="77" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" lean-forward="true" selection-start-column="42" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile.txt" />
-    <entry file="file://$PROJECT_DIR$/resources/views/page/search.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/page/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/page/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_06_10_152258_create_type_of_news_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2013">
-          <caret line="214" column="21" selection-start-line="214" selection-start-column="21" selection-end-line="214" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/layout/menu.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TypeOfNewsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="44" column="41" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout/slide.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/typeOfNews/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/TypeOfNews.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -591,29 +2029,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/page/news.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout/menu.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/storage/images/sapa9.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/layout/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/admin_asset/bower_components/jquery/dist/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -657,13 +2074,6 @@
         <state relative-caret-position="-763" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/news/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="104" column="18" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/layout/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -692,39 +2102,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/news/list.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#40#85#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1358">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NewsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="48" column="77" lean-forward="true" selection-start-line="48" selection-start-column="77" selection-end-line="48" selection-end-column="77" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -761,20 +2144,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/page/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="41" column="109" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/page/category.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CommentController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -785,20 +2154,201 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/layout/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        <state relative-caret-position="374">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/layout/menu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="57" column="106" selection-start-line="57" selection-start-column="106" selection-end-line="57" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_06_10_152258_create_type_of_news_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="99" selection-start-line="20" selection-start-column="99" selection-end-line="20" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_06_10_152535_create_news_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="101" selection-start-line="25" selection-start-column="101" selection-end-line="25" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_06_10_153138_create_comments_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_06_10_154229_create_slide_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_06_10_151322_create_categories_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="43" column="55" lean-forward="true" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
+        <state relative-caret-position="174">
+          <caret line="51" column="41" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/typeOfNews/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/news/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blog_manager.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="155" column="58" lean-forward="true" selection-start-line="155" selection-start-column="58" selection-end-line="155" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout/slide.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="32" column="87" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/slide/list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/news/list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="39" column="90" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TypeOfNewsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="51" column="41" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/typeOfNews/list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/page/category.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/news/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="95" column="73" selection-start-line="95" selection-start-column="73" selection-end-line="95" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/page/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="97" lean-forward="true" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/page/news.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="83" column="32" lean-forward="true" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NewsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/NewsValidation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout/menu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
