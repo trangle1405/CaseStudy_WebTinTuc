@@ -39,7 +39,7 @@
                                 ?>
                                 <div class="col-md-8 border-right">
                                     <div class="col-md-5">
-                                        <a href="tin-tuc/{{ $news_one['title_slug'] }}.html">
+                                        <a href="news/{{$news_one['id']}}/{{ $news_one['title_slug'] }}.html">
                                             <img class="img-responsive"  src="{{asset('storage/images/'. $news_one['image'])}}" alt="Hình ảnh đại diện của bài viết">
                                         </a>
                                     </div>
