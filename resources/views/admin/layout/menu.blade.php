@@ -55,7 +55,7 @@
             </li>
 
             <li>
-                <a href="admin/slide/list"><i class="fa fa-slideshare fa-fw icon-mright"></i>Quản lý Slider<span class="fa arrow"></span></a>
+                <a href="admin/slide/list"><i class="fa fa-slideshare fa-fw icon-mright"></i>Quản lý Slide<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
                         <a href="admin/slide/list">Danh Sách</a>

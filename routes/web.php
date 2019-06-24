@@ -37,6 +37,7 @@ Route::get('admin/logout', 'UserController@Logout');
 
 
 route::group(['prefix' => 'admin', 'middleware' => 'adminLogin'], function () {
+    Route::get('/', 'CategoryController@list');
     // Route group category
     route::group(['prefix' => 'category'], function () {
         Route::get('list', 'CategoryController@list');

@@ -21,7 +21,7 @@
                     <thead>
                     <tr align="center">
                         <th class="text-center">ID</th>
-                        <th class="text-center">Tiêu Đề </th>
+                        <th class="text-center">Tiêu Đề</th>
                         <th class="text-center">Tóm Tắt</th>
                         <th class="text-center">Thể Loại</th>
                         <th class="text-center">Loại Tin</th>
@@ -50,16 +50,19 @@
                                     {{ 'Có' }}
                                 @endif
                             </td>
-                            <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="admin/news/edit/{{ $value->id }}">Sửa</a></td>
-                            <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="admin/news/delete/{{ $value->id }}" onclick="return confirm('Bạn chắc chắn muốn xóa?')">xoa</a></td>
+                            <td class="center"><i class="fa fa-pencil fa-fw"></i> <a
+                                        href="admin/news/edit/{{ $value->id }}">Sửa</a></td>
+                            <td class="center"><i class="fa fa-pencil fa-fw"></i> <a
+                                        href="admin/news/delete/{{ $value->id }}"
+                                        onclick="return confirm('Bạn chắc chắn muốn xóa?')">xoa</a></td>
                         </tr>
                     @endforeach
                     </tbody>
                 </table>
             {{ $news->links() }}
             <!-- /.row -->
+            </div>
+            <!-- /.container-fluid -->
         </div>
-        <!-- /.container-fluid -->
-    </div>
-    <!-- /#page-wrapper -->
+        <!-- /#page-wrapper -->
 @endsection

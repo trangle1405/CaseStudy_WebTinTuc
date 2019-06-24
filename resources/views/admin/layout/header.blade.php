@@ -6,7 +6,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="admin/home"><span class="font-title">Trang Quản Trị</span></a>
+        <a class="navbar-brand" href="admin"><span class="font-title">Trang Quản Trị</span></a>
     </div>
     <!-- /.navbar-header -->
 
