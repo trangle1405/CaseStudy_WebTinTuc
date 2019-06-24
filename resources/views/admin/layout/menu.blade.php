@@ -13,7 +13,7 @@
                 <!-- /input-group -->
             </li>
             <li>
-                <a href="admin"><i class="fa fa-dashboard fa-fw icon-mright"></i>Bảng Điều Khiển</a>
+                <a href="/"><i class="fa fa-dashboard fa-fw icon-mright"></i>Trang Tin</a>
             </li>
             <li>
                 <a href="admin/category/list"><i class="fa fa-list fa-fw icon-mright"></i>Thể Loại<span class="fa arrow"></span></a>
