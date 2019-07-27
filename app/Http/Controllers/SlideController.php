@@ -31,7 +31,7 @@ class SlideController extends Controller
             $fileName = $file->getClientOriginalName();
             $fileExtension = $file->getClientOriginalExtension();
             $newFileName = rand(11111, 99999) . "_" . $fileName . "." . $fileExtension;
-            $request->file('image')->storeAs('public/images', $newFileName);
+            $request->file('image')->move('upload/slide',$newFileName);
             //$request['image'] = $newFileName;
             //dd($newFileName);
             $attribute['image'] = $newFileName;
@@ -60,7 +60,7 @@ class SlideController extends Controller
             $fileName = $file->getClientOriginalName();
             $fileExtension = $file->getClientOriginalExtension();
             $newFileName = rand(11111, 99999) . "_" . $fileName . "." . $fileExtension;
-            $request->file('image')->storeAs('public/images', $newFileName);
+            $request->file('image')->move('upload/slide',$newFileName);
             $attribute['image'] = $newFileName;
 
         }
